@@ -235,9 +235,6 @@ service servicemanager /system/bin/servicemanager
 service vold /system/bin/vold
     socket vold stream 0660 root mount
 
-#service mountd /system/bin/mountd
-#    socket mountd stream 0660 root mount
-
 # Not ported to PowerPC
 #service debuggerd /system/bin/debuggerd
 
