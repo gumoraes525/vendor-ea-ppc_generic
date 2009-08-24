@@ -285,7 +285,7 @@ service hsag /system/bin/sdptool add --channel=11 HSAG
 service installd /system/bin/installd
     socket installd stream 600 system system
 
-service goldfish-setup /system/etc/init.mips_generic.sh
+service goldfish-setup /system/etc/init.ppc_generic.sh
     oneshot
 
 #service qemud /system/bin/qemud
