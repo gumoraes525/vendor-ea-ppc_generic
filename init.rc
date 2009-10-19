@@ -285,6 +285,8 @@ service installd /system/bin/installd
 service goldfish-setup /system/etc/init.ppc_generic.sh
     oneshot
 
+service ethmonitor /system/bin/ethmonitor eth0
+
 #service qemud /system/bin/qemud
 #    socket qemud stream 666
 #    oneshot
