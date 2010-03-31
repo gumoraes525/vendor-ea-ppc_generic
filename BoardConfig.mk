@@ -17,3 +17,4 @@ USE_CUSTOM_SURFACEFLINGER_HEAP_MAX := 16
 # Setup some runtime system properties.
 TARGET_BOARD_PLATFORM := ppc
 #TARGET_BOOTLOADER_BOARD_NAME := tbd
+TARGET_CPU_ABI := none
